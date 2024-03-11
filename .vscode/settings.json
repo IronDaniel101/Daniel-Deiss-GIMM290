@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ICA GIMM290.sln"
+    "dotnet.defaultSolution": "GIMM290game.sln"
 }
