@@ -7,10 +7,6 @@ Unity 5-----------------------------
 -Second player and Main player both have scores that operate correctly off of jumping above the other's head.
 -Colliders all work correctly with out error.
 
-
-
-
-
 Unity 6--------------------------------
 
 -Points work correctly for both players and a winner is reached at 4 points.
@@ -19,8 +15,8 @@ The UI updates correctly and the game freezes and displays a winner when the win
 
 Unity 7-----------------------------------
 
-
-
+-Added a soccer ball that is affected by the players movements and can be kicked around. 
+-Added speed boosts all over the map that give players the ability to move quickly (x2 speed) for 5 seconds.
 
 Unity 8---------------------------------------------
 
