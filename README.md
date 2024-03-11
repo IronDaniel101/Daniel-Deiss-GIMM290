@@ -15,3 +15,16 @@ Unity 6--------------------------------
 
 -Points work correctly for both players and a winner is reached at 4 points.
 The UI updates correctly and the game freezes and displays a winner when the win condition is met.
+
+
+Unity 7-----------------------------------
+
+
+
+
+Unity 8---------------------------------------------
+
+-Added a Square Soccer Ball that can be pushed into a goal to have a game Win for whoever scores. 
+-First to 10 points wins the whole game.
+-Added swords that rotate around the players' locations and if they hit the other player then they give one point to the player who got the hit. 
+-Speed Boosts all over to add a bit of fun to the game and encourage an agressive play style.

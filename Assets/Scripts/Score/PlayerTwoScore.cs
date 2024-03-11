@@ -46,7 +46,7 @@ public class PlayerTwoScore : MonoBehaviour
 
 
          //check to see if score is 4.
-         if (score == 4)
+         if (score == 10)
         {
             // Stop the game by setting the time scale to 0
             Time.timeScale = 0f;

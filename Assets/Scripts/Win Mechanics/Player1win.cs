@@ -37,7 +37,7 @@ public class Player1win : MonoBehaviour
     void HandlePlayerOneScore()
     {
         // Check if the win condition is met and hasn't been activated yet
-        if (PlayerOneScore.Score == 4 && !hasActivated)
+        if (PlayerOneScore.Score >= 10 && !hasActivated)
         {
             // Your logic when Player One wins (e.g., show a win message)
             Debug.Log("Player One Wins!");
@@ -51,6 +51,16 @@ public class Player1win : MonoBehaviour
             }
         }
     }
+
+
+     public void EnableWinText()
+    {
+        if (winText != null)
+        {
+            winText.enabled = true;
+        }
+    }
+
 
     // Unsubscribe from the event when this script is disabled
     private void OnDisable()

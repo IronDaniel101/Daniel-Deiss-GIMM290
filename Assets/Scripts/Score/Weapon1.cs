@@ -17,7 +17,6 @@ public class Weapon1 : MonoBehaviour
         {
             // Assuming the player has a script with a method to handle points
             PlayerOneScore playerScore = other.GetComponent<PlayerOneScore>();
-
             if (playerScore != null)
             {
                 // Call a method in the PlayerOneScore script to add points

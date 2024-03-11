@@ -33,6 +33,7 @@ public class PlayerOneScore : MonoBehaviour
     {
         // Increase the score
         score += 1;
+       
 
         // Update the TextMeshPro element
         if (scoreText != null)
@@ -41,7 +42,7 @@ public class PlayerOneScore : MonoBehaviour
         }
 
         // Check to see if the score is 4
-        if (score == 4)
+        if (score == 10)
         {
             // Stop the game by setting the time scale to 0
             Time.timeScale = 0f;
